@@ -40,31 +40,31 @@ int main() {
 }
 /* Write all the test functions */
 void test_perimeter(void) {
-  CU_ASSERT( 12.00 == perimeter_of_triangle_func(3,4,5));
-  CU_ASSERT(9.00 == perimeter_of_triangle_func(3,3,3));
-  CU_ASSERT(6.00 == perimeter_of_triangle_func(2,2,2));
-  CU_ASSERT(30.00 == perimeter_of_triangle_func(5,12,13));
-  CU_ASSERT(56.00 == perimeter_of_triangle_func(7,24,25));
+  CU_ASSERT( 12.00 == perimeter_of_triangle(3,4,5));
+  CU_ASSERT(9.00 == perimeter_of_triangle(3,3,3));
+  CU_ASSERT(6.00 == perimeter_of_triangle(2,2,2));
+  CU_ASSERT(30.00 == perimeter_of_triangle(5,12,13));
+  CU_ASSERT(56.00 == perimeter_of_triangle(7,24,25));
 
   /* Dummy fail*/
-  CU_ASSERT(10 == perimeter_of_triangle_func(3,4,5));
+  CU_ASSERT(10 == perimeter_of_triangle(3,4,5));
 }
 
 void test_area(void) {
-  CU_ASSERT(6.00 == area_of_triangle_func(3,4,5));
-  CU_ASSERT(3.90 == area_of_triangle_func(3,3,3));
-  CU_ASSERT(30.00 == area_of_triangle_func(5,12,13));
-  CU_ASSERT(84.00 == area_of_triangle_func(7,24,25));
+  CU_ASSERT(6.00 == area_of_triangle(3,4,5));
+  CU_ASSERT(3.90 == area_of_triangle(3,3,3));
+  CU_ASSERT(30.00 == area_of_triangle(5,12,13));
+  CU_ASSERT(84.00 == area_of_triangle(7,24,25));
 
   /* Dummy fail*/
-  CU_ASSERT(8.00 == area_of_triangle_func(3,4,5));
+  CU_ASSERT(8.00 == area_of_triangle(3,4,5));
 }
 void test_Type(void) {
-  CU_ASSERT(3 == TypeOfTriangle_func(3,4,5));
-  CU_ASSERT(1 == TypeOfTriangle_func(3,3,3));
-  CU_ASSERT(3 == TypeOfTriangle_func(5,12,13));
-  CU_ASSERT(3 == TypeOfTriangle_func(7,24,25));
+  CU_ASSERT(3 == TypeOfTriangle(3,4,5));
+  CU_ASSERT(1 == TypeOfTriangle(3,3,3));
+  CU_ASSERT(3 == TypeOfTriangle(5,12,13));
+  CU_ASSERT(3 == TypeOfTriangle(7,24,25));
 
   /* Dummy fail*/
-  CU_ASSERT(8 == TypeOfTriangle_func(3,4,5));
+  CU_ASSERT(8 == TypeOfTriangle(3,4,5));
 }
