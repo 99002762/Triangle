@@ -21,9 +21,9 @@ int main() {
 /* Note: Do not edit END */
 
 /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "perimeter_of_triangle_func", test_perimeter);
-  CU_add_test(suite, "area_of_triangle_func", test_area);
-   CU_add_test(suite, "TypeOfTriangle_func", test_Type);
+  CU_add_test(suite, "perimeter_of_triangle", test_perimeter);
+  CU_add_test(suite, "area_of_triangle", test_area);
+   CU_add_test(suite, "TypeOfTriangle", test_Type);
 
 
 /* Note: Do not edit START*/
