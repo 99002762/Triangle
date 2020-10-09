@@ -47,7 +47,7 @@ void test_perimeter(void) {
   CU_ASSERT(56.00 == perimeter_of_triangle(7,24,25));
 
   /* Dummy fail*/
-  CU_ASSERT(10 == perimeter_of_triangle(3,4,5));
+ // CU_ASSERT(10 == perimeter_of_triangle(3,4,5));
 }
 
 void test_area(void) {
@@ -57,7 +57,7 @@ void test_area(void) {
   CU_ASSERT(84.00 == area_of_triangle(7,24,25));
 
   /* Dummy fail*/
-  CU_ASSERT(8.00 == area_of_triangle(3,4,5));
+ // CU_ASSERT(8.00 == area_of_triangle(3,4,5));
 }
 void test_Type(void) {
   CU_ASSERT(3 == TypeOfTriangle(3,4,5));
@@ -66,5 +66,5 @@ void test_Type(void) {
   CU_ASSERT(3 == TypeOfTriangle(7,24,25));
 
   /* Dummy fail*/
-  CU_ASSERT(8 == TypeOfTriangle(3,4,5));
+  //CU_ASSERT(8 == TypeOfTriangle(3,4,5));
 }
