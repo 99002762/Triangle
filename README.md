@@ -3,3 +3,4 @@
 ![cppcheck-action](https://github.com/stepin105085/Triangle/workflows/cppcheck-action/badge.svg)
 ![C/C++ CI](https://github.com/stepin105085/Triangle_mini_project/workflows/C/C++%20CI/badge.svg)
 ![Valgrind](https://github.com/99002762/Triangle/workflows/Valgrind/badge.svg)
+![Unit testing](https://github.com/99002762/Triangle/workflows/Unit%20testing/badge.svg)
